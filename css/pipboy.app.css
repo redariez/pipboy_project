@@ -22,12 +22,12 @@ body::after {
   pointer-events: none;
 }
 
-.navbar {
+.navbar.navbar-light {
   border-bottom: 2px solid;
   margin: 0px 10px;
 }
 
-.navbar::before, .navbar::after {
+.navbar.navbar-light::before, .navbar.navbar-light::after {
   height: 7px;
   width: 2px;
   content: "";
@@ -46,13 +46,13 @@ body::after {
   right: 0px;
 }
 
-.navbar-light ul.navbar-nav > li {
+.navbar-light ul.navbar-nav>li {
   display: block;
   position: relative;
   width: 100%;
 }
 
-ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
+ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
   color: #14fe17 !important;
   font-size: 32px;
   line-height: 22px;
@@ -70,11 +70,11 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
   border-left: 2px solid;
   border-right: 2px solid;
   border-top: 2px solid;
-  left: 0px:
+  left: 0px;
 }
 
-.navbar-light .navbar-nav > li.nav-item >.nav-link,
-.navbar-light .navbar-nav > li.navbar-item.active > .nav-link {
+.navbar-light .navbar-nav>li.nav-item>.nav-link,
+.navbar-light .navbar-nav>li.navbar-item.active>.nav-link {
   text-align: center;
   margin: auto;
   font-size: 32px;
@@ -89,10 +89,16 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
   width: 100%;
 }
 
-.navbar-light ul.navbar-nav > li {
+.navbar-light ul.navbar-nav>li {
   display: block;
   position: relative;
   width: 100%;
+}
+
+.center-image {
+  position: absolute;
+
+  margin-left: 100px;
 }
 
 .center-image img {
@@ -115,7 +121,7 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
   margin: 0px 200px;
 }
 
-.navbar.navbar-light .navbar-nav > li {
+.navbar.navbar-light .navbar-nav>li {
   padding: 0px 20px;
 }
 
@@ -124,20 +130,58 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
   border-bottom: none;
 }
 
-.nav.nav-tabs > .nav-item > .nav-link:hover {
+.nav.nav-tabs>.nav-item>.nav-link:hover {
   border: 1px solid transparent;
 }
 
-.nav.nav-tabs > li > a {
+.nav.nav-tabs>li>a {
   font-size: 26px;
-background: transparent !important;
-border: 1px solid transparent !important;
+  background: transparent !important;
+  border: 1px solid transparent !important;
 }
 
-.nav.nav-tabs > li:nth-child(2) > a {
+.nav.nav-tabs>li:nth-child(2)>a {
   opacity: .6;
 }
 
-.nav.nav-tabs > li:nth-child(3) > a {
-  opacity: .3;
+.nav.nav-tabs>li:nth-child(3)>a {
+  opacity: .2;
+}
+
+.level-progress {
+  width: 100%;
+  height: 10px;
+  border: 2px solid;
+  display: inline-block;
+  width: 70%;
+}
+
+.level-progress-indicator {
+  height: 6px;
+  background: #14fe17;
+  position: relative;
+  width: 70%;
+}
+
+.navbar.navbar-light.pip-footet {
+  baorder: none;
+}
+
+.navbar.pip-footer .col-3, .navbar.pip-footer .col-6 {
+  background: rgba(16, 255, 20, 0.15);
+}
+
+.navbar.pip-footer .col-6 {
+  margin: 0px 5px;
+  flex: 0 0 48%;
+}
+
+.stat-bar {
+  width: 60px;
+  margin: auto;
+}
+
+#status {
+  max-width: 400px;
+  margin: auto;
 }
