@@ -106,8 +106,10 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
   display: block;
   position: relative;
   max-height: 300px;
-  margin-top: 100px;
+
   filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(7) brightness(1) contrast(2);
+  margin-top: 50px;
+  margin-left: -10px;
 }
 
 .pip-footer {
@@ -165,10 +167,12 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
 
 .navbar.navbar-light.pip-footet {
   baorder: none;
+  font-size: 22px;
 }
 
 .navbar.pip-footer .col-3, .navbar.pip-footer .col-6 {
   background: rgba(16, 255, 20, 0.15);
+  padding: 5px 10px;
 }
 
 .navbar.pip-footer .col-6 {
@@ -184,4 +188,49 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
 #status {
   max-width: 400px;
   margin: auto;
+}
+
+.stat-bars > .row {
+  margin-bottom: 100px;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w70 {
+  width: 80%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.stat-numbers .col-1, .stat-numbers .col-2 {
+  background: rgba(16, 255, 20, 0.15);
+  margin-right: 4px;
+}
+
+.stat-numbers .col-1.transparent, .stat-numbers .col-2.transparent {
+  background: transparent;
 }
