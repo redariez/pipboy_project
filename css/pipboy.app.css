@@ -226,6 +226,10 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
   width: 90%;
 }
 
+.stat-numbers {
+  margin-top: -50px;
+}
+
 .stat-numbers .col-1, .stat-numbers .col-2 {
   background: rgba(16, 255, 20, 0.15);
   margin-right: 4px;
@@ -233,4 +237,19 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
 
 .stat-numbers .col-1.transparent, .stat-numbers .col-2.transparent {
   background: transparent;
+}
+
+.stat-numbers img {
+  width: 100%;
+  filter: grayscale(1) brightness(200) contrast(0) sepia(100%) hue-rotate(55deg) saturate(200);
+  padding-top: 13px;
+}
+
+.stat-numbers img.sm-image {
+  width: 15px;
+  margin-left: -5px;
+}
+
+.spacer-numbers {
+  width: 50px;
 }
