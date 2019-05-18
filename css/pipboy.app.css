@@ -279,3 +279,14 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
   background: #14fe17;
   color: #272b23;
 }
+
+.tab-pane.full {
+  height: calc(100vh - 180px);
+}
+
+.item-stats {
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+  width: 300px;
+}
