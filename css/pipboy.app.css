@@ -290,3 +290,15 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
   bottom: 50px;
   width: 300px;
 }
+
+.pull-left {
+  float:left !important;
+}
+
+.pull-right {
+  float:right !important;
+}
+
+.item-stats .row .col-12 {
+  background: rgba(16, 255, 0, 0.15);
+}
