@@ -24,6 +24,11 @@
     "weight": 13.1,
     "value": 144
   },
-  ]
+];
+
+$('.item-list a').on('mouseenter', function(e) {
+  var current_item = $(e.currentTarget).attr('class');
+  console.log(current_item);
+});
 
 });

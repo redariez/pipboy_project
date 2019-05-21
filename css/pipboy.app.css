@@ -288,7 +288,7 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
   position: absolute;
   right: 0px;
   bottom: 50px;
-  width: 300px;
+  width: 200px;
 }
 
 .pull-left {
@@ -301,4 +301,5 @@ ul>li.nav-item>a.nav-link, ul>li.navbar-item.active>a.nav-link {
 
 .item-stats .row .col-12 {
   background: rgba(16, 255, 0, 0.15);
+  margin-bottom: 2px;
 }
