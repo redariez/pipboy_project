@@ -26,6 +26,11 @@
   },
 ];
 
+$('.item-list a').on('click', function(e) {
+  $('.item-list a').removeClass('active');
+  $(e.currentTarget).addClass('active');
+});
+
 $('.item-list a').on('mouseenter', function(e) {
   var current_item = $(e.currentTarget).attr('class');
   console.log(current_item);
